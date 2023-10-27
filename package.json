@@ -1,0 +1,17 @@
+{
+  "name": "blockyblocks",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "bun run index.ts"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.11.0"
+  }
+}
